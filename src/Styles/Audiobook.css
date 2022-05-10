@@ -1,0 +1,48 @@
+.audiobook-div {
+    height: 80vh;
+    padding: 2%;
+
+}
+
+.player-div {
+    display: flex;
+    justify-content: center;
+    padding: 14px 10px
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: rgb(134, 127, 192);
+    color: rgb(21, 21, 183);
+}
+
+li {
+    margin-top: 3%;
+} 
+
+a:hover {
+    cursor: pointer;
+}
+
+/*.audiobook-div>ol {
+    counter-reset: item;
+    list-style-type: none;
+} */
+
+/* .audiobook-div>li {
+    display: block;
+}
+
+.audiobook-div>li:before {
+    content: counter(item) " ";
+    counter-increment: item
+} */
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+h4 {
+    font-size: medium;
+}

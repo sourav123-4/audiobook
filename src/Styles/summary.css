@@ -1,0 +1,24 @@
+.summary-div{
+    display: flex;
+}
+.overview-div{
+max-width: 80%;
+height: 100px;
+margin-left: 20%;
+font-size:larger;
+}
+.audiobook-div{
+background-color: rgb(245, 247, 249);
+margin-left: 3%;
+margin-top: 3%;
+padding-left: 3%;
+padding-right: 3%;
+
+}
+.player-div{
+background-color: rgb(57, 5, 17);
+border-radius: 5px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

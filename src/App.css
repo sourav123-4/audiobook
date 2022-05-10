@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.App-Main{
+  display: flex;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+

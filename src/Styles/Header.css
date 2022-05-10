@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.topNav {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 3.75rem;
+    box-shadow: 0 1px 0 0 rgb(14 48 75 / 12%);
+}
+
+.navMaxWidth {
+    max-width: 71.75rem;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navLeft {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 1.25rem;
+    transform: translateY(-50%);
+}
+.clear-margin-top{
+    margin-top: 0 !important;
+}
+
+.navLeft img {
+    vertical-align: middle;
+    height: 1.75rem;
+    cursor: pointer;
+}
+
+.navRight {
+    position: relative;
+    float: right;
+    text-align: right;
+    top: 50%;
+    right: 1.25rem;
+    transform: translateY(-50%);
+    font-size: 1rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #8f95a3;
+    cursor: pointer;
+    padding-right: 1.5rem;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+.desktop-inline-block {
+    display: inline-block;
+}
