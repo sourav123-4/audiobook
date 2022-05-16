@@ -1,11 +1,14 @@
 .summary-div{
     display: flex;
+    flex-direction: column;
 }
 .overview-div{
-max-width: 80%;
-height: 100px;
-margin-left: 20%;
-font-size:larger;
+    display: flex;
+    max-width: 80%;
+    height: 75px;
+    margin-left: 20%;
+    font-size:larger;
+    font-family: Georgia;
 }
 .audiobook-div{
 background-color: rgb(245, 247, 249);
@@ -21,4 +24,64 @@ border-radius: 5px;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tabs {
+
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    background: #FFF;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 18.5px;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: bolder;
+}
+.tabs:hover{
+    background:linear-gradient(90deg, rgba(250, 250, 250, 1) 1%, rgba(255, 255, 255, 1) 100%);
+}
+
+.active-tabs  {
+background: white;
+border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+content: "";
+display: block;
+position: absolute;
+bottom: 0px;
+left: 50%;
+transform: translateX(-50%);
+width: calc(70% + 2px);
+height: 2px;
+background: rgb(88, 147, 241);
+}
+  
+  
+button {
+    border: none;    
+}
+.content-tabs {
+flex-grow : 1;
+margin-left: 21%;
+}
+.content {
+background: white;
+padding: 20px;
+width: 100%;
+height: 100%;
+display: none;
+}
+.active-content {
+display: block;
+}
+.content>h2{
+    font-size: 24px;
+}
+.content>p{
+    font-size: 20px;
 }

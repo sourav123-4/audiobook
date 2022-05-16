@@ -1,25 +1,99 @@
 .audiobook-div {
-    height: 80vh;
+    height: 120vh;
     padding: 2%;
-
+    margin-top: 45px;
+    font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1) 1%, rgba(255, 255, 255, 1) 100%);
+}
+ol{
+    margin-left: -35px;
+}
+.audio-image {
+    position: absolute;
+    right: 10px;
+    width: 80px;
+    height: 125px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 rgb(0 0 0 / 40%);
+    bottom: 25px;
 }
 
+.overview {
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    display: inline-block;
+    color: aliceblue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: medium;
+}
 .player-div {
     display: flex;
-    justify-content: center;
-    padding: 14px 10px
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 16%);
+    background-image: linear-gradient(to top, #262626 1%, #4d4d4d 98%);
+    padding: 40px 18px 20px 18px;
+    position: relative;
 }
 
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-panel {
-    background-color: rgb(134, 127, 192);
-    color: rgb(21, 21, 183);
+.react-audio-player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 16%);
+    background-image: linear-gradient(to top, #262626 1%, #4d4d4d 98%);
+    padding: 0px 3px 11px 2px;
+    position: relative;
+}
+a:active{
+    color: blue;
 }
 
-li {
+p {
     margin-top: 3%;
+    margin-right: 40px;
+    font-size: 15px;
+    padding: 2px;
 } 
+h3{
+    font-size: 18px;
+    padding:10px;
+}
+h4{
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+}
+.tablecontents{
+    margin:0px 22.4px 0px 22.3875px;
+    padding: 20px 0px 0px;
+    
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    
+}
+.tablecontents>ol>a{
+    border-bottom: 1px solid lightgray;
 
+}
+img{
+    margin-right: 3%;
+    align-self: right;
+}
+span{
+    padding-right: 20px;
+    font-size: larger;
+}
 a:hover {
     cursor: pointer;
 }

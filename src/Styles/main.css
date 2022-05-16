@@ -1,0 +1,224 @@
+.main{
+    text-align: center;
+    display: flex;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    margin-top:63px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:#FFF; */
+    
+}
+body{
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1) 1%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.info{
+    text-align: left;
+    margin-left: 100px;
+    max-width: 77%;
+    margin-top: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content:first baseline;
+    gap: 20px;
+}
+
+.btn-1{
+    border-radius: 4px;
+    background-color: #8F95A3;
+    margin: 20px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.book-image{
+    font: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+
+}
+
+.image{
+    box-shadow: 0 7px 4px -5px rgb(0 0 0 / 60%), 0px 3px 15px 2px rgb(0 0 0 / 20%), 0 10px 10px -5px rgb(0 0 0 / 30%), inset 0 -1px 3px 0 rgb(0 0 0 / 20%), inset 0 -1px 0 0 rgb(0 0 0 / 12%), inset 0 2px 0 0 rgb(255 255 255 / 20%);
+}
+
+.title{
+    font: 34.4px;
+    margin-top: 0 !important;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sub-title{
+    font: 20px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.author{
+    font: 16px;
+    color: #8f95a3;
+    margin: 5px 0 10px;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.addition{
+    font: 15px;
+}
+
+.title,
+.author,
+.sub-title{
+    font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+   
+}
+
+.note{
+    display: flex;
+    justify-content: space-around;
+    margin: 7px;
+    border-top: 0.1px solid lightgray;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+}
+
+.note-1{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #5c626e;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.rating-no{
+    margin-right: 15px;
+}
+
+.ratings{
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: auto;
+    color: #3a4649;
+    font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+}
+
+.overall-rating{
+    font-size: 0.8rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: auto;
+    color: #8f95a3;
+    font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
+    margin-top: 8px;
+}
+
+.fa-star{
+    font-size: 20px;
+    /* color: '#f3da35';  */
+    color: gold;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .main{
+        flex-direction: column;
+        padding: 36px 20px;
+    }
+    info{
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .note{
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    note-1{
+        display: flex;
+        gap: 0px;
+        flex-direction: row;
+        /* text-align: center; */
+        padding-bottom: 10px;
+        /* justify-content:; */
+        align-items: center;
+    }
+    .addition{
+        padding: 14px 0 14px 35px;
+        font: 12px;
+    }
+    .title{
+        font-size: 2.15rem;
+    }
+    .image{
+        margin-bottom:30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .image{
+        margin: auto;
+        margin-bottom:30px;
+    }
+    .info{
+        margin: auto;
+    }
+    .ratings{
+        text-align: center;
+    }
+    .overall-rating{
+        text-align: center;
+        margin: auto;
+    }
+    .addition{
+        padding: 4px 0 14px 35px;
+        font: 12px;
+    }
+}
+
+@media only screen and (min-width: 1115px) {
+   .main{
+       padding-left: 100px;
+   }
+}

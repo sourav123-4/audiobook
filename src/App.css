@@ -7,4 +7,15 @@
   margin-top: 5%;
   margin-right: 20%;
 }
+@media screen and (max-width: 480px) {
+  .App-Main{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* flex-flow: column; */
+  }
+  .App-header{
+    min-height: 70px;
 
+  }
+}
