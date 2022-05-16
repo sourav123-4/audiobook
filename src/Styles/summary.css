@@ -1,6 +1,7 @@
 .summary-div{
     display: flex;
     flex-direction: column;
+    color: #3a4649;
 }
 .overview-div{
     display: flex;
@@ -27,7 +28,7 @@ p{
 }
 .tabs {
 
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     width: 50%;
     background: #FFF;
@@ -37,8 +38,10 @@ p{
     outline: none;
     font-size: 18.5px;
     border-radius: 5px;
-    height: 50px;
+    height: 40px;
     font-weight: bolder;
+    color:#3a4649;
+    border:
 }
 .tabs:hover{
     background:linear-gradient(90deg, rgba(250, 250, 250, 1) 1%, rgba(255, 255, 255, 1) 100%);
@@ -60,14 +63,17 @@ width: calc(70% + 2px);
 height: 2px;
 background: rgb(88, 147, 241);
 }
-  
-  
 button {
     border: none;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content-tabs {
 flex-grow : 1;
-margin-left: 21%;
+margin-top: -3%;
+margin-left: 20%;
+padding-top: 5px;
 }
 .content {
 background: white;

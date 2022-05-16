@@ -29,13 +29,21 @@ body{
     justify-content:first baseline;
     gap: 20px;
 }
+.starts{
+    display: flex;
+}
 
 .btn-1{
     border-radius: 4px;
     background-color: #8F95A3;
     margin: 20px;
     color: white;
-    padding: 5px 10px;
+    padding: 1% 1% 2% 4%;
+    
+}
+.btn-1>p{
+    /* text-align: center; */
+    align-items: center;
 }
 
 .book-image{
@@ -110,7 +118,9 @@ body{
 
 .note-1{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:flex-end;
     gap: 3px;
     color: #5c626e;
 }
@@ -150,10 +160,9 @@ body{
 
 .fa-star{
     font-size: 20px;
-    /* color: '#f3da35';  */
     color: gold;
-}
 
+}
 
 @media only screen and (max-width: 800px) {
     .main{

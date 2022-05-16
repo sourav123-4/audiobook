@@ -15,7 +15,7 @@ function Summary() {
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
             >
-            Summary
+            <h2 style={{fontSize:"20px"}}>Summary</h2>
             <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIYAAACGCAMAAAAvpwKjAAAAZlBMVEX///8lJSUAAAD4+PhNTU0gICANDQ2kpKQbGxsSEhJpaWm9vb24uLh/f38VFRUYGBji4uLc3NyamppUVFStra3Hx8fv7+/Ozs6KiopfX193d3eRkZHo6OgrKytxcXE9PT1EREQ0NDTjEaaLAAADGUlEQVR4nO2aa7eqIBBAE8SkEkPT1NLy///Ja51zRL2CPRi6j9kfW6zcjjCMI6sVgiAIgiAIgjwPpR8WyI9JVaYdZZQc8w85HDYhISJkHSEnJNwc3Jvso+7C3ohOKto7lcgLL/BmCLzCYUSO8xJfIkdXFgXRSdwgkZOVQ0ttKL4DUjrwoOmCReeRgntQf9Gi8/ChPTZ82cLzeANrcZjMTibIHcHGv5MDpIUcWwiSnrbyfJa7U0rE2EPCWdAyHkWikv0coLIaRSQGXC7bYTDENFEd6+G8IVswjXpwv6T57XZpM9BkLZTFdrBWZ3MljQIH4WjUzIiv80P8wRCgRZurkLP6PD/m7KnnRmA2253S0KeFQWIhOxCNqg84u2hvNL/04YgrCAvq9xcIEv2wpJ+lDGRn2dcq3JqZcR/WPxVWQ5SEUmVrYhqnJgeHSOhZ//9hahqX9pUyyQA0VCYXxrlX9VEDSWBKg0emcRFHDdRADdT4OzVgs6jaU9il2WhpVMEBsadsr6q8Y6GBwbCr7XCcm2mL6REYaQyVyfPkj7zHzxH4FutiehHLV5wnbu1VgtGLsbjHo7BlIR/qaeiwVgo272lYenvL6+VrGWC1nVmaxcvXMiHsZLHDGxP0RmCnAbV+V2ONGv+nBheMCWNicaDBeZFJmRXcIAKv0TfiaKX/uAGuwQfbVqH/0gOsEZaDUTTV1UXQGuO+uNQ9FmCNSW+Lpmx+HLBGPCloIs0WCKzBJ/3ARLNogTXEJBqFpmAF1hgtlI5Ss1TAV8qo77n/0Erx+KgjWOnyOXgWHdZV+hrNwZ6S/OwpyQf3FNU72Bk+27vQ2KEGaqAGaqAGaljS+N7qp2d+HGv8FIK6AtCRhhecbkNOxiFOGgtlkpSfbix0hEFg7upb0vhDOoHZW03i7rHZ6YueNa/Ij8IsfVPZvNUmFhs7Fquj8bTsEsTaqd7mjUnKbQWjexmqX/jQ9kVYWzxnJNsXp4dorZ7vkT55Yb0w4ts+7LRuCb8f9H+UkJPWTv4cQbOi9B8nLaMM6uQqfQIgBQRBEARBEOSf4RdXkTHPJthcdwAAAABJRU5ErkJggg==' width="20px"/>
             </button>
             <button
