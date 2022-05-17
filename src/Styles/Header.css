@@ -7,10 +7,11 @@
     width: 100%;
     height: 3.75rem;
     box-shadow: 0 1px 0 0 rgb(14 48 75 / 12%);
+    z-index: 9;
 }
 
 .navMaxWidth {
-    max-width: 71.75rem;
+    width: 71.75rem;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -56,4 +57,18 @@
 
 .desktop-inline-block {
     display: inline-block;
+}
+@media only screen and (max-width: 500px) {
+    .topNav {
+        position: fixed;
+        background-color: #ffffff;
+        height: 8.75rem;
+        box-shadow: 0 1px 0 0 rgb(14 48 75 / 12%);
+    }
+    
+    .navMaxWidth {
+        width: 17.75rem;
+
+    }
+    
 }

@@ -5,7 +5,8 @@
 .App-Main{
   display: flex;
   margin-top: 5%;
-  margin-right: 20%;
+  margin-right: 10%;
+  
 }
 @media screen and (max-width: 480px) {
   .App-Main{
@@ -15,7 +16,9 @@
     /* flex-flow: column; */
   }
   .App-header{
-    min-height: 70px;
+    /* min-height: 70px; */
+    margin: 0%;
+    
 
   }
 }

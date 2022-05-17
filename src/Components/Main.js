@@ -33,26 +33,18 @@ const Main = () => {
         <div className='rating'>
           <div className='rating-no'>
             <div className='ratings'>
-                <div className='starts'>
-                    <h3>4.5</h3> 
-                    <div className='overall-rating'>
-                        <i class='fa fa-star star1'></i>
-                        <i class='fa fa-star start2'></i>
-                        <i class='fa fa-star star3'></i>
-                        <i class='fa fa-star star4'></i>
-                        <i class='fa fa-star start5'></i>
-                    </div>  
-                </div>
-                <h3>2 Ratings</h3>              
-            </div>
-                      
-          </div>
-          <div className='starts'>
-            
+              <h3 className='ratingNo'>5.0</h3>  
+              <div className='stars'>
+                <i class='fa fa-star star1'></i>
+                <i class='fa fa-star start2'></i>
+                <i class='fa fa-star star3'></i>
+                <i class='fa fa-star star4'></i>
+                <i class='fa fa-star start5'></i>
+              </div>              
+            </div>      
           </div>
         </div>
       </div>
-
     </div>
   )
 }
