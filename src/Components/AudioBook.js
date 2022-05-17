@@ -21,31 +21,32 @@ function AudioBook() {
       <div className='tablecontents'>
         <h4>Table of Contents</h4>
         <ol>
-          <a onClick={()=>setAudioUrl("fables_01_02_aesop.mp3")}><span>1</span><p>Introduction by GK Chesterton</p>
+          
+          <a onClick={()=>setAudioUrl("fables_01_02_aesop.mp3")}><div className='table-section'><span>1</span><p>Introduction</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_03_aesop.mp3")}><span>2</span><p>The Fox And The Grapes story</p>
+          <a onClick={()=>setAudioUrl("fables_01_03_aesop.mp3")}><div className='table-section'><span>2</span><p>The Fox And The Grapes</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_04_aesop.mp3")}><span>3</span><p>The Goose That Laid The Golden Eggs</p>
+          <a onClick={()=>setAudioUrl("fables_01_04_aesop.mp3")}><div className='table-section'><span>3</span><p>The Golden Eggs</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_06_aesop.mp3")}><span>4</span><p>The Mischievious Dog behaviour story</p>
+          <a onClick={()=>setAudioUrl("fables_01_06_aesop.mp3")}><div className='table-section'><span>4</span><p>The Mischievious Dog</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_07_aesop.mp3")}><span>5</span><p>The Charcoal and The Fuller story</p>
+          <a onClick={()=>setAudioUrl("fables_01_07_aesop.mp3")}><div className='table-section'><span>5</span><p>The Charcoal and Fuller</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_08_aesop.mp3")}><span>6</span><p>The Mice And The big Council</p>
+          <a onClick={()=>setAudioUrl("fables_01_08_aesop.mp3")}><div className='table-section'><span>6</span><p>The Mice And Council</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_09_aesop.mp3")}><span>7</span><p>The Bat And The Weasels story</p>
+          <a onClick={()=>setAudioUrl("fables_01_09_aesop.mp3")}><div className='table-section'><span>7</span><p>The Bat And The Weasels</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_10_aesop.mp3")}><span>8</span><p>The Dog and The Sow,The Fox And The Crow </p>
+          <a onClick={()=>setAudioUrl("fables_01_10_aesop.mp3")}><div className='table-section'><span>8</span><p>The Dog and The Sow</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
-          <a onClick={()=>setAudioUrl("fables_01_11_aesop.mp3")}><span>9</span><p>The Fox And The Crow story</p>
+          <a onClick={()=>setAudioUrl("fables_01_11_aesop.mp3")}><div className='table-section'><span>9</span><p>The Fox And The Crow</p></div>
           <img src={IMG_PAUSE} width="20px"/>
           </a>
         </ol>

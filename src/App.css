@@ -6,6 +6,9 @@
   display: flex;
   margin-top: 5%;
   margin-right: 10%;
+  border-radius: 20px;
+  background-color: #FFF;
+  margin-left:11%;
   
 }
 @media screen and (max-width: 480px) {

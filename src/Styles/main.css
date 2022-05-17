@@ -7,9 +7,7 @@
     padding-bottom: 2.25rem;
     margin-top:63px;
     overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color:#FFF; */
+    margin-left: 12.5%;
     
 }
 body{
@@ -28,34 +26,15 @@ body{
     display: flex;
     align-items:left;
     gap:10px;
-    
+    height:10px;
     color: #8f95a3;
 }
-.stars{
-    display: flex;
-    
-    padding:8% 0% 0% 10%;
-    
-}
-
 .btn-1{
     border-radius: 4px;
     background-color: #8F95A3;
-    color: white;
-    padding: 0.3% 0% 1% 1.5%;
-    
+    color: white;  
+    padding:0% 0% 5% 3%;  
 }
-.btn-1>p{
-    /* text-align: center; */
-    align-items: center;
-}
-p {
-    margin-top: 3%;
-    margin-right: 16px;
-    font-size: 15px;
-    padding: 5px;
-}
-
 .book-image{
     font: 16px;
     cursor: pointer;
@@ -95,11 +74,7 @@ p {
 }
 .author{
     margin: 5px 0 10px 0;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.78;
-    letter-spacing: normal;
+    font-size: 16px;
     text-align: left;
     color: #8f95a3;
 }
@@ -118,11 +93,9 @@ p {
 .note{
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 13px 0;
     border-top: 1px solid #f1f1f1;
     border-bottom: 1px solid #f1f1f1;
+    margin: 4% 0%;
 }
             
 

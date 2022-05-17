@@ -25,23 +25,9 @@ const Main = () => {
         </div>
         <div className='button'>
           <div className='btn-1'>
-            <p>Business & Economics</p></div>
+            <p>Business & Finance</p></div>
           <div className='btn-1'>
-            <p> Finance</p>
-          </div>
-        </div>
-        <div className='rating'>
-          <div className='rating-no'>
-            <div className='ratings'>
-              <h3 className='ratingNo'>5.0</h3>  
-              <div className='stars'>
-                <i class='fa fa-star star1'></i>
-                <i class='fa fa-star start2'></i>
-                <i class='fa fa-star star3'></i>
-                <i class='fa fa-star star4'></i>
-                <i class='fa fa-star start5'></i>
-              </div>              
-            </div>      
+            <p>Business & Finance</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 .audiobook-div {
     height: 120vh;
-    /* padding: 2% 2% 5% 2%; */
-    margin-top: 57px;
+    margin-top: 59px;
+    padding-top: 3.5%;
     font-family: "Gotham Narrow A", "Gotham Narrow B", sans-serif;
     background: linear-gradient(90deg, rgba(250, 250, 250, 1) 1%, rgba(255, 255, 255, 1) 100%);
 }
@@ -71,17 +71,24 @@ h4{
     padding: 5px 5px 5px 5px;
 }
 .tablecontents{
-    margin:0px 22.4px 0px 22.3875px;
-    padding: 20px 0px 0px;
+    margin:0px 22.4px 0px 0px;
+    padding: 50px 10px 0px 0px;
     
 }
 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     padding: 5px;
     
 }
+.table-section{
+    display: flex;
+}
+
+
 .tablecontents>ol>a{
     border-bottom: 1px solid lightgray;
 
@@ -96,25 +103,6 @@ span{
 }
 a:hover {
     cursor: pointer;
-}
-
-/*.audiobook-div>ol {
-    counter-reset: item;
-    list-style-type: none;
-} */
-
-/* .audiobook-div>li {
-    display: block;
-}
-
-.audiobook-div>li:before {
-    content: counter(item) " ";
-    counter-increment: item
-} */
-
-a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
 }
 
 h4 {

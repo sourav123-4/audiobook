@@ -10,7 +10,7 @@ function Summary() {
   return (
     <div className='summary-div'>  
         <div className='overview-div'>
-            <button
+            <button style={{borderTopLeftRadius:"10px"}}
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
             >
@@ -23,7 +23,7 @@ function Summary() {
             >
             Insights
             </button>
-            <button
+            <button 
             className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(3)}
             >
